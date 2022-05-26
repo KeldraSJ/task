@@ -54,3 +54,40 @@ input[placeholder="Enter task..."] {
 .empty-state__description {
   margin: 20px;
 }
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  align-items: center;
+  display: flex;
+  height: 25px;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.task-item span {
+  flex-grow: 1;
+  margin-left: 15px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.checkbox {
+  appearance: none;
+  background-color: #eeeeee;
+  -webkit-appearance: none;
+  border: thin;
+  border-radius: 14px;
+  box-shadow: 2.5px 5px #888888;
+  height: 2em;
+  width: 2em;
+}
+
+.delete-task {
+  border: none;
+  background-color: transparent;
+}
